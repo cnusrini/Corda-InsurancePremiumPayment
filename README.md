@@ -2,7 +2,7 @@
   <img src="https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png" alt="Corda" width="100">
 </p>
 
-#### Example CorDapp
+#### CorDapp
 Corda-InsurancePremiumPayment
 
 #### Corda-InsurancePremiumPayment
@@ -19,3 +19,8 @@ Corda-InsurancePremiumPayment
   * git clone https://github.com/cnusrini/Corda-InsurancePremiumPayment.git
 
 #### How to build the corDapp
+
+#### TO DO Lists
+- [ ] Building smart contract
+- [ ] Building UI
+- [ ] Building unit test scrits
