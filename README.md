@@ -5,8 +5,7 @@
 # Example CorDapp
 Corda-InsurancePremiumPayment
 
-Welcome to the example CorDapp. This CorDapp is documented [here](http://docs.corda.net/tutorial-cordapp.html).
-# Corda-Hello-World1
+# Corda-InsurancePremiumPayment
 corda sample is built on the below versions :
 corda_release_group = 'net.corda'
 corda_release_version = '3.3-corda'
@@ -17,4 +16,4 @@ quasar_version = '0.7.9'
 
 How to get the corda code:
 cd to your repo
-git clone https://github.com/deepkushagra/Corda-Hello-World1.git
+git clone https://github.com/cnusrini/Corda-InsurancePremiumPayment.git
