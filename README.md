@@ -4,6 +4,7 @@
 
 #### CorDapp
 Corda-InsurancePremiumPayment
+* This sample allows various patients to pay their premium to the insurance company on the corda network.
 
 #### Corda-InsurancePremiumPayment
 * corDapp is built on the below versions :
@@ -18,7 +19,21 @@ Corda-InsurancePremiumPayment
   * cd to your repo
   * git clone https://github.com/cnusrini/Corda-InsurancePremiumPayment.git
 
-#### How to build the corDapp
+#### How to build in the following order
+ * from with in the root directory, execute .\gradlew.bat
+ * from with in the root directory, execute .\gradlew clean deployNodes
+ * After successful build with in kotlin-source/build/nodes it should show 3 nodes Notary, PartyA and PartyB and few    other files.
+
+#### To run nodes:
+ * from with in the directory kotlin-source/build/nodes , execute .\runnodes.bat
+ * this will spin up nodes
+
+#### To use it:
+ * from browser type http://localhost:10009 for PartyA
+ * from browser type http://localhost:10012 for PartyB
+
+#### Relaunch nodes
+ * To relaunch the nodes,follow the instructions from To run nodes
 
 #### TO DO Lists
 - [ ] Building smart contract
